@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Marion Kipruto - Full Stack Developer Portfolio">
+    <title>Marion Kipruto | Full Stack Developer</title>
+    <link rel="stylesheet" href="STYLE/style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header id="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="index.html" class="logo">MK</a>
+                    
+                    <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </button>
+
+                    <ul class="nav-menu" id="navMenu">
+                        <li><a href="#home" class="nav-link active" data-page="home">Home</a></li>
+                        <li><a href="#about" class="nav-link" data-page="about">About</a></li>
+                        <li><a href="#projects" class="nav-link" data-page="projects">Projects</a></li>
+                        <li><a href="#contact" class="nav-link" data-page="contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Home Page -->
+        <section id="home" class="page active">
+            <div class="hero">
+                <div class="hero-content">
+                    <!-- Profile Image -->
+                    <div class="hero-image">
+                        <img src="IMAGES/MARION1.jpg" 
+                             alt="Marion Kipruto" 
+                             class="profile-img">
+                    </div>
+                    
+                    <h1 class="hero-title">Marion Kipruto</h1>
+                    <p class="hero-subtitle">Full Stack Developer</p>
+                    <p class="hero-description">
+                        Crafting scalable web applications with modern technologies and clean code
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary" data-page="projects">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary" data-page="contact">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="scroll-indicator">
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
+
+            <!-- Stats Section -->
+            <div class="stats-section">
+                <div class="container">
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <i class="fas fa-code stat-icon"></i>
+                            <h3 class="stat-number">50+</h3>
+                            <p class="stat-label">Projects Completed</p>
+                        </div>
+                        <div class="stat-card">
+                            <i class="fas fa-palette stat-icon"></i>
+                            <h3 class="stat-number">5+</h3>
+                            <p class="stat-label">Years Experience</p>
+                        </div>
+                        <div class="stat-card">
+                            <i class="fas fa-bolt stat-icon"></i>
+                            <h3 class="stat-number">100%</h3>
+                            <p class="stat-label">Client Satisfaction</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Page -->
+        <section id="about" class="page">
+            <div class="container">
+                <h1 class="page-title">About Me</h1>
+                
+                <div class="about-grid">
+                    <div class="about-content">
+                        <!-- About Image -->
+                        <div class="about-image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&fit=crop" 
+                                 alt="Coding workspace" 
+                                 class="about-image">
+                        </div>
+                        
+                        <div class="about-card">
+                            <h2>My Story</h2>
+                            <p>
+                                I'm Marion Kipruto, a passionate Full Stack Developer with over 5 years of experience 
+                                building robust web applications. My journey in tech started with a curiosity about 
+                                how digital solutions can transform businesses and improve lives.
+                            </p>
+                            <p>
+                                I specialize in both frontend and backend development, working with technologies like 
+                                React, Node.js, Python, and various databases. I believe in writing clean, maintainable 
+                                code and creating user experiences that are both beautiful and functional.
+                            </p>
+                            <p>
+                                When I'm not coding, you'll find me contributing to open-source projects, mentoring 
+                                junior developers, or exploring the latest tech trends and innovations.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="skills-content">
+                        <h2>Technical Skills</h2>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span class="skill-name">JavaScript / React</span>
+                                    <span class="skill-percentage">95%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="95"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span class="skill-name">HTML / CSS</span>
+                                    <span class="skill-percentage">98%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="98"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span class="skill-name">Node.js / Express</span>
+                                    <span class="skill-percentage">90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="90"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span class="skill-name">Python / Django</span>
+                                    <span class="skill-percentage">88%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="88"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span class="skill-name">Databases (SQL/NoSQL)</span>
+                                    <span class="skill-percentage">92%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="92"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience Timeline -->
+                <div class="experience-section">
+                    <h2 class="section-title">Professional Experience</h2>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-year">2023 - Present</div>
+                            <div class="timeline-content">
+                                <h3>Senior Full Stack Developer</h3>
+                                <h4>Tech Innovators Kenya</h4>
+                                <p>Leading development of enterprise web applications using React, Node.js, and cloud technologies. Mentoring junior developers and architecting scalable solutions.</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-year">2021 - 2023</div>
+                            <div class="timeline-content">
+                                <h3>Full Stack Developer</h3>
+                                <h4>Digital Solutions Ltd</h4>
+                                <p>Developed and maintained multiple client web applications. Implemented RESTful APIs and integrated third-party services.</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-year">2020 - 2021</div>
+                            <div class="timeline-content">
+                                <h3>Junior Developer</h3>
+                                <h4>StartUp Hub Nairobi</h4>
+                                <p>Contributed to various web development projects. Gained experience in agile methodologies and collaborative development.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certifications Section -->
+                <div class="certifications-section">
+                    <h2 class="section-title">Certifications & Education</h2>
+                    <div class="cert-grid">
+                        <div class="cert-card">
+                            <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=400&h=250&fit=crop" 
+                                 alt="Certification" 
+                                 class="cert-image">
+                            <h3>AWS Certified Developer</h3>
+                            <p>Amazon Web Services</p>
+                        </div>
+                        <div class="cert-card">
+                            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=400&h=250&fit=crop" 
+                                 alt="Education" 
+                                 class="cert-image">
+                            <h3>BSc Computer Science</h3>
+                            <p>University of Nairobi</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Page -->
+        <section id="projects" class="page">
+            <div class="container">
+                <h1 class="page-title">My Projects</h1>
+                <p class="page-subtitle">A showcase of my recent work and side projects</p>
+
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1557821552-17105176677c?w=600&h=400&fit=crop" 
+                                 alt="E-Commerce Platform" 
+                                 class="project-img">
+                        </div>
+                        <div class="project-content">
+                            <h3>E-Commerce Platform</h3>
+                            <p class="project-tech">React, Node.js, MongoDB, Stripe</p>
+                            <p class="project-description">
+                                Full-featured online store with payment integration, inventory management, and admin dashboard.
+                            </p>
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                              <!--  <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=600&h=400&fit=crop" 
+                                 alt="Task Management System" 
+                                 class="project-img">
+                        </div>
+                        <div class="project-content">
+                            <h3>Task Management System</h3>
+                            <p class="project-tech">React, Firebase, Material-UI</p>
+                            <p class="project-description">
+                                Collaborative productivity tool with real-time updates, team management, and analytics.
+                            </p>
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                                <!--<a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>-->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&h=400&fit=crop" 
+                                 alt="Real Estate Portal" 
+                                 class="project-img">
+                        </div>
+                        <div class="project-content">
+                            <h3>Real Estate Portal</h3>
+                            <p class="project-tech">Django, PostgreSQL, Vue.js</p>
+                            <p class="project-description">
+                                Property listing platform with advanced search, virtual tours, and agent management system.
+                            </p>
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                                <!--<a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>-->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1592210454359-9043f067919b?w=600&h=400&fit=crop" 
+                                 alt="Weather Dashboard" 
+                                 class="project-img">
+                        </div>
+                        <div class="project-content">
+                            <h3>Weather Dashboard</h3>
+                            <p class="project-tech">React, OpenWeather API, Chart.js</p>
+                            <p class="project-description">
+                                Real-time weather tracking application with forecasts, historical data, and beautiful visualizations.
+                            </p>
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                                <!--<a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>-->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=600&h=400&fit=crop" 
+                                 alt="Social Network Platform" 
+                                 class="project-img">
+                        </div>
+                        <div class="project-content">
+                            <h3>Social Network Platform</h3>
+                            <p class="project-tech">MERN Stack, Socket.io, Redux</p>
+                            <p class="project-description">
+                                Feature-rich social networking site with posts, messaging, notifications, and user profiles.
+                            </p>
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                                <!--<a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>-->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=600&h=400&fit=crop" 
+                                 alt="Fitness Tracking App" 
+                                 class="project-img">
+                        </div>
+                        <div class="project-content">
+                            <h3>Fitness Tracking App</h3>
+                            <p class="project-tech">React Native, Express, MongoDB</p>
+                            <p class="project-description">
+                                Mobile application for tracking workouts, nutrition, and fitness goals with progress analytics.
+                            </p>
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                                <!--<a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Page -->
+        <section id="contact" class="page">
+            <div class="container">
+                <h1 class="page-title">Get In Touch</h1>
+                <p class="page-subtitle">Have a project in mind? Let's work together!</p>
+
+                <div class="contact-grid">
+                    <div class="contact-form-wrapper">
+                        <div id="formSuccess" class="form-success hidden">
+                            <i class="fas fa-check-circle"></i>
+                            <h3>Message Sent!</h3>
+                            <p>Thank you for reaching out. I'll get back to you soon.</p>
+                        </div>
+
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Name *</label>
+                                <input type="text" id="name" name="name" required>
+                                <span class="error-message" id="nameError"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" required>
+                                <span class="error-message" id="emailError"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                                <span class="error-message" id="messageError"></span>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-full">
+                                <i class="fas fa-paper-plane"></i> Send Message
+                            </button>
+                        </form>
+                    </div>
+
+                    <div class="contact-info">
+                        <div class="contact-card">
+                            <!-- Contact Image -->
+                            <img src="https://images.unsplash.com/photo-1423666639041-f56000c27a9a?w=600&h=300&fit=crop" 
+                                 alt="Contact" 
+                                 class="contact-image">
+                            
+                            <h3>Contact Information</h3>
+                            <div class="contact-details">
+                                <div class="contact-item">
+                                    <i class="fas fa-envelope"></i>
+                                    <span>marionrutto21@gmail.com</span>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="fab fa-github"></i>
+                                    <span>https://github.com/coder4-c</span>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="fab fa-linkedin"></i>
+                                    <span>https://www.linkedin.com/in/marion-kipruto-a58a602a4/</span>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Nairobi, Kenya</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contact-card highlight">
+                            <h3>Let's Build Something Amazing</h3>
+                            <p>
+                                I'm always excited to collaborate on interesting projects and discuss new opportunities. 
+                                Whether you have a specific project in mind or just want to connect, feel free to reach out!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Marion Kipruto. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="https://github.com/coder4-c" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="mailto:marionrutto21@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="https://wa.me/254713185939" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="SCRIPT/script.js"></script>
+</body>
+</html>
