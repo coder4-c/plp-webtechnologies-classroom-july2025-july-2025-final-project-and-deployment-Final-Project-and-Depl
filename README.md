@@ -76,6 +76,7 @@ Deploy your project and confirm that:
 
    * Your complete project code, properly organized
    * A `README.md` file explaining your project purpose, structure, and live URL
+
 2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
 
 ---
@@ -88,3 +89,9 @@ Deploy your project and confirm that:
 * Clean, well-organized, and commented code
 * Successful live deployment with a working link
 * Evidence of following best practices
+
+---
+
+## 🚀 Live Site
+
+Visit the deployed project here: [https://marionportfolio1.netlify.app](https://marionportfolio1.netlify.app)
